@@ -1,10 +1,10 @@
-package com.company;
+package com.company.task1;
 
 import java.io.*;
 import java.util.regex.Pattern;
 
 public class Main {
-private static final String ABSOLUTE_PATH = "D:\\hw-9.1\\Number.txt";
+private static final String ABSOLUTE_PATH = "D:\\hw-9.1\\src\\com\\company\\task1\\Number.txt";
     public static void main(String[] args) {
         File file = new File(ABSOLUTE_PATH);
         Pattern pattern1 = Pattern.compile("^\\d{3}[-]\\d{3}[-]\\d{4}");
